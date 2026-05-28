@@ -1,5 +1,5 @@
 module "ec2" {
-  source = "/home/suraj/terraform-modules/ec2"
+  source = "git::https://github.com/suraj8957/terraform-modules.git//ec2"
 
   region        = var.qa-region
   ami           = var.qa-instance-ami
