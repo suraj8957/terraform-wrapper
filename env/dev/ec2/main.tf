@@ -3,6 +3,6 @@ module "ec2" {
 
   region        = var.dev_region
   ami           = var.dev_instance_ami
-  instance-type = var.dev_instance_type
-  instance-name = var.dev_instance_name
+  instance_type = var.dev_instance_type
+  instance_name = var.dev_instance_name
 }
