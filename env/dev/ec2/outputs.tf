@@ -1,3 +1,3 @@
-output "dev-instance-id" {
-  value = module.ec2.instance-id
+output "dev_instance_id" {
+  value = module.ec2.instance_id
 }
