@@ -1,16 +1,16 @@
-variable "dev-region" {
+variable "dev_region" {
   type        = string
   description = "dev region"
 }
-variable "dev-instance-ami" {
+variable "dev_instance_ami" {
   type        = string
   description = "dev instance ami id"
 }
-variable "dev-instance-type" {
+variable "dev_instance_type" {
   type        = string
   description = "dev instance type"
 }
-variable "dev-instance-name" {
+variable "dev_instance_name" {
   type        = string
   description = "name of the dev instance"
 }
